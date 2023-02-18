@@ -1,0 +1,46 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 10rem;
+    height: 3rem;
+}
+.headerMenu{
+list-style: none;
+display: flex;
+gap: 2rem;
+color: white;
+font-weight: 450;
+font-size: 17px;
+}
+.headerMenu>li{
+    cursor: pointer;
+}
+.headerMenu>li:hover{
+    cursor: pointer;
+    color: orange;
+}
+
+@media screen and (max-width:412px) {
+
+    
+    .header{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        
+    } 
+    .header .headerMenu{
+        width: 75%;
+        font-size: 12px;
+        margin: 0px;
+        padding: 0px;
+     } 
+     .header>img{
+        width: 25%;
+        margin-left: -20px;
+     }
+}
