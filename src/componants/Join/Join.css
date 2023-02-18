@@ -1,0 +1,133 @@
+.Join{
+    display: flex;
+    padding: 0 2rem;
+    gap: 1rem;
+}
+.left-j{
+    color: white;
+    font-size:3rem;
+    font-weight:bold;
+    text-transform: uppercase;
+    position: relative;
+    margin:20px;
+}
+.stroke-text{
+    color: #5297dd;
+}
+.left-j>hr{
+    position: absolute;
+    width: 10.5rem;
+    border: 2px solid var(--orange);
+    border-radius: 20%;
+    margin-top: -20px;
+    margin-left: 10px;
+}
+.left-j>div{
+    display: flex;
+    gap: 1rem;
+    
+}
+.right-j{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.email-container{
+    display: flex;
+    gap: 1rem;
+    background-color: gray;
+    padding: 1rem 1rem;
+    height: 3rem;
+    color: white;
+    margin-left: 300px;
+    margin-top: 40px;
+}
+.email-container>input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    /* color: var(--lightgrayz); */
+    color: white;
+    font-size: 17px;
+}
+.btn-j{
+    background: orange;
+    color: white;
+    width: 5rem;
+    height: 3rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+}
+::placeholder{
+    color: white       
+  
+}
+
+@media screen and (max-width:700px) {
+   
+    .left-j>div{
+     font-size: 35px;
+     margin-left: -20px;
+    }
+
+    .right-j{
+        margin-left: -300px;
+    
+    }
+    .email-container{
+        display: flex;
+        gap: 1rem;
+        background-color: gray;
+        padding: 1rem 1rem;
+        height: 2rem;
+        color: white;
+        margin-left: 270px;
+        margin-top: 40px;
+    }
+    .btn-j{
+        background: orange;
+        color: white;
+        width: 5rem;
+        height: 2.5rem;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:412px) {
+    .left-j>div{
+        font-size: 28px;
+        margin-left: -20px;
+       }
+       .right-j{
+      
+    }
+    .email-container{
+        display: flex;
+        gap: 1rem;
+        background-color: gray;
+        padding: 1rem 1rem;
+        height: 2rem;
+        color: white;
+      margin-top: -240px;
+      width: 80%;
+      margin-left: 10px;
+    }
+    .Join{
+        display: grid;
+        padding: 0 2rem;
+        gap: 1rem;
+    }
+    .btn{
+        margin-left: -30px;
+        height: 62px;
+        
+    }
+    
+   
+}
